@@ -1,0 +1,61 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.color-box {
+    width: 150px;
+    height: 150px;
+    margin: 20px auto;
+    border: 1px solid #000;
+    transition: background-color 0.3s ease;
+}
+
+.escudo-arrobas {
+    font-size: 1.2rem; /* Reducir el tamaño de las arrobas */
+    color: #333;
+    text-align: center;
+    line-height: 1.2;
+    margin: 10px auto;
+    font-weight: bold; /* Hace las arrobas más visibles */
+}
+
+.range-green::-webkit-slider-thumb {
+    background: #006400; /* Verde más intenso */
+}
+
+.range-red::-webkit-slider-thumb {
+    background: #800000;
+}
+
+.range-white::-webkit-slider-thumb {
+    background: #FFFFFF;
+}
+
+input[type="range"] {
+    width: 80%;
+    margin: 10px auto;
+    cursor: pointer;
+    appearance: none;
+    height: 8px;
+    background: #f1f1f1;
+    border-radius: 5px;
+    outline: none;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 15px;
+    height: 15px;
+    background: #007bff;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+}
